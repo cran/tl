@@ -1,0 +1,13 @@
+17f02dd120c817b55e9df0547c512e7e *ChangeLog
+cc3f6c0762b4bb6db5475f8e04c870ee *DESCRIPTION
+1c12988f9aefe63c618b753fca74c4f7 *NAMESPACE
+36f6cec3476901152c0fa2b0fffaf573 *R/tl.R
+61d8078f808a4ed54a5dd07709c312f3 *README.md
+b7f7e452eec4b3e866485986ae5a5939 *build/partial.rdb
+86dea4591fc09e32c7b967b6be5171be *cleanup
+85c98ec9b52c552c256f8ea0e99252c0 *inst/include/tl.h
+030a46f89034b37387d0ce166c8cdaa5 *inst/tinytest/test_basics.R
+ce693381e239204aac0b6ecde02d96fa *inst/tinytest/test_formats.R
+a75420fbd81b5dbab6d62c82023f2b64 *man/tl-package.Rd
+1a64d23b2852e19700f940081d7d1a61 *man/trace.Rd
+79ada1dcbfc355c5659f109ff6ec7469 *tests/tinytest.R

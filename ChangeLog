@@ -1,0 +1,57 @@
+2026-06-17  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md (tl): Small edit and simplification
+	* .github/workflows/ci.yaml: Simpler dependencies as rspdlite on CRAN
+
+2026-06-04  Dirk Eddelbuettel  <edd@debian.org>
+
+	* R/tl.R (cppstandard): Pass on rspdlite:::cppstandard()
+
+2026-06-03  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: Mention tlexample package
+
+2026-06-01  Dirk Eddelbuettel  <edd@debian.org>
+
+	* R/tl.R (set_format): Add and document format setter
+	* man/trace.Rd: Regenerated
+	* NAMESPACE: Idem
+	* inst/tinytest/test_formats.R: Add tests
+
+2026-05-31  Dirk Eddelbuettel  <edd@debian.org>
+
+	* inst/include/tl.h: Expanded following added `rspdlite` support
+	* R/tl.R: Idem, also added tinyrox documentation
+	* man/trace.Rd: Generated
+	* NAMESPACE: Generated
+
+	* inst/tinytest/test_basics.R: Add initial unit test support
+	* tests/tinytest.R: Idem
+	* DESCRIPTION: Idem
+	* .github/workflows/ci.yaml: Add CI support
+
+	* README.md: Added
+
+2026-05-29  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION: Minimally working version exporting header
+	* inst/include/tl.h: Added new (re-)exporting header
+	* src/tl.cpp: Moved content to new header
+	* src/RcppExports.cpp: Regenerated
+	* R/RcppExports.R: Idem
+	* man/tl-package: Idem
+	* NAMESPACE: Idem
+
+2026-05-25  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION: Initial minimal version
+	* src/tl.cpp: Idem
+	* src/RcppExports.cpp: Idem
+	* R/RcppExports.R: Idem
+	* man/tl-package: Idem
+	* NAMESPACE: Idem
+
+	* .Rbuildignore: Added
+	* .editorconfig: Idem
+	* .gitignore: Idem
+	* cleanup: Idem
