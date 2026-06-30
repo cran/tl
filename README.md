@@ -2,6 +2,8 @@
 
 [![CI](https://github.com/eddelbuettel/tl/actions/workflows/ci.yaml/badge.svg)](https://github.com/eddelbuettel/tl/actions/workflows/ci.yaml)
 [![License](https://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](https://www.r-project.org/Licenses/GPL-2)
+[![CRAN](https://www.r-pkg.org/badges/version/tl)](https://cran.r-project.org/package=tl)
+[![Dependencies](https://tinyverse.netlify.app/badge/tl)](https://cran.r-project.org/package=tl)
 [![r-universe](https://eddelbuettel.r-universe.dev/badges/tl)](https://eddelbuettel.r-universe.dev/tl)
 [![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/tl)](https://github.com/eddelbuettel/tl)
 
@@ -70,17 +72,24 @@ this to be an issue.
 The package [tlexample][tlexample] offers a complete example of integrated logging from both C++ and
 R. After installing [rspdlite][rspdlite] and [tl][tl] (along with their one dependency [Rcpp][rcpp])
 one can run the provided demo.  So for example in an [r2u][r2u] container (such as `rocker/r2u`
-where we rely on the GitHub installation helper also pulling in dependencies [Rcpp][rcpp] and
-[rspdlite][rspdlite] as binaries)
+where we rely on the GitHub installation helper also pulling in dependencies [Rcpp][rcpp],
+[rspdlite][rspdlite] and this package [tl][tl] as binaries)
 
 ```sh
-root$ installGithub.r eddelbuettel/tl eddelbuettel/tlexample
+root$ installGithub.r eddelbuettel/tlexample
 root$ Rscript -e 'demo(ex, package="tlexample")'
 ```
 
 or alternatively install [Rcpp][rcpp] and these package from source or as binary from [my
 r-universe][r-universe].  This [tlexample][tlexample] package is very lightweight and therefore a
 good playground to experiment with logging via [tl][tl], [rspdlite][rspdlite] and [spdlite][spdlite].
+
+#### Package `RcppNLoptExample`
+
+The package [RcppNLoptExample][rcppnloptexample] package (also on [CRAN][cran]) provides a complete
+example from the documentation of the underlying [NLopt][nlopt] library, bundled in a small yet
+complete package illustrating use of [NLopt][nlopt] from R. This offers a vessel for a good
+illustration of adding [tl][tl] from both the C++ and R, along with different logging levels.
 
 ### Author
 
@@ -94,6 +103,8 @@ tl is released under the GNU GPL, version 2 or later, just like R itself.
 [tl]: https://github.com/eddelbuettel/tl
 [spdlog]: https://github.com/gabime/spdlog
 [rcppspdlog]: https://github.com/eddelbuettel/RcppSpdlog
+[rcppnloptexample]: https://github.com/eddelbuettel/RcppNLoptExample
+[nlopt]: https://github.com/stevengj/nlopt
 [spdl]: https://github.com/eddelbuettel/spdl
 [spdlite]: https://github.com/gabime/spdlite
 [fmt]: https://github.com/fmtlib/fmt

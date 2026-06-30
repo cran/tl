@@ -1,4 +1,34 @@
+2026-06-30  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Release 0.0.2
+
+2026-06-29  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: Mention RcppNLoptExample as another usage example
+
+2026-06-28  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Roll micro version and date
+
+	* R/tl.R (init): Added intialization function, edit to docs
+	* man/trace.Rd: Regenerated
+	* NAMESPACE: export init()
+	* README.md: Small edits
+
+2026-06-27  Dirk Eddelbuettel  <edd@debian.org>
+
+	* inst/include/tl.h: Condition on C++20 compilation, show fallback
+	message shown if gcc or clang detected
+
+2026-06-22  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: Add two badges
+
+	* inst/NEWS.Rd: Added
+
 2026-06-17  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Release 0.0.1
 
 	* README.md (tl): Small edit and simplification
 	* .github/workflows/ci.yaml: Simpler dependencies as rspdlite on CRAN
